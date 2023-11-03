@@ -1,0 +1,61 @@
+.listatarefa {
+  text-align: center;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 2, 37);
+  color: #fff;
+}
+input{
+  padding: 10px 40px;
+  background: #052653;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+}
+button{
+  background: #025fd8;
+  color: #fff;
+  padding: 10px 20px;
+  position: relative;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #180350b9;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 20px;
+}
+.completo{
+  display: flex;
+  align-items: start;
+  background-color: #021024;
+  text-decoration: line-through;
+  color: #0a2955;
+  margin-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+}
+.all{
+  text-align: center;
+  border:2px solid rgb(197, 10, 10);
+  background: none;
+  width: 200px;
+  transition: .5s;
+  margin-top: 20px;
+}
+.all:hover{
+  background: rgb(197, 10, 10);
+  color: #fff;
+}
+
